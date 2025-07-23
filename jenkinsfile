@@ -1,0 +1,12 @@
+pipeline {
+  agent any
+
+  stages{
+    stage ('My_JenkinsBuild-Steps') {
+      steps{
+        echo "Start"
+        echo "Doing smth..."
+        echo "End"
+        }
+      }
+}
